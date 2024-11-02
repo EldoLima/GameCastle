@@ -35,7 +35,7 @@ move_and_collide(0, velv, _tile, 12);
 // Troca de sprites com base no estado do jogador
 if (!_chao) {
     // Se o jogador está no ar (pulo), exibe o sprite de pulo
-    sprite_index = spr_player_jump;
+    //sprite_index = spr_player_jump;
 } else if (velh != 0) {
     // Se o jogador está no chão e se movendo, exibe o sprite de corrida
     sprite_index = spr_player_correndo;
