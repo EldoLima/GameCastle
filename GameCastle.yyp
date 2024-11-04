@@ -43,6 +43,7 @@
   },
   "name":"GameCastle",
   "resources":[
+    {"id":{"name":"o_objTEste","path":"objects/o_objTEste/o_objTEste.yy",},},
     {"id":{"name":"obj_corda","path":"objects/obj_corda/obj_corda.yy",},},
     {"id":{"name":"obj_fireplace","path":"objects/obj_fireplace/obj_fireplace.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -51,6 +52,7 @@
     {"id":{"name":"onj_suriken","path":"objects/onj_suriken/onj_suriken.yy",},},
     {"id":{"name":"onj_tree","path":"objects/onj_tree/onj_tree.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_corda","path":"sprites/spr_corda/spr_corda.yy",},},
     {"id":{"name":"spr_fireplace","path":"sprites/spr_fireplace/spr_fireplace.yy",},},
@@ -58,6 +60,8 @@
     {"id":{"name":"spr_overlay","path":"sprites/spr_overlay/spr_overlay.yy",},},
     {"id":{"name":"spr_player_correndo","path":"sprites/spr_player_correndo/spr_player_correndo.yy",},},
     {"id":{"name":"spr_player_parado","path":"sprites/spr_player_parado/spr_player_parado.yy",},},
+    {"id":{"name":"spr_player1_parado","path":"sprites/spr_player1_parado/spr_player1_parado.yy",},},
+    {"id":{"name":"spr_player1_run","path":"sprites/spr_player1_run/spr_player1_run.yy",},},
     {"id":{"name":"spr_saw","path":"sprites/spr_saw/spr_saw.yy",},},
     {"id":{"name":"spr_skeleton_idle","path":"sprites/spr_skeleton_idle/spr_skeleton_idle.yy",},},
     {"id":{"name":"spr_skeleton_walk","path":"sprites/spr_skeleton_walk/spr_skeleton_walk.yy",},},
@@ -73,6 +77,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":null,

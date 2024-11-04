@@ -30,7 +30,7 @@ if (!_chao) {
 move_and_collide(velh, 0, _tile);
 
 // Movendo na vertical com colisão
-move_and_collide(0, velv, _tile, 12);
+move_and_collide(0, velv, _tile);
 
 // Troca de sprites com base no estado do jogador
 if (!_chao) {
@@ -45,6 +45,7 @@ if (!_chao) {
 }
 
 // Verificando a direção do movimento para ajustar o sprite
+// esse código está bugando o jogo
 if (_right) {
     image_xscale = 1; // Vira o sprite para a direita
 } else if (_left) {
